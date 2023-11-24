@@ -8,6 +8,7 @@
             {{ $post->title }}
         </a>
     </p>
+    <span> {{ $post->user->name }}</span>
     @endforeach
 
     {{ $posts->links() }}
